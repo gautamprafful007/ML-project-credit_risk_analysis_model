@@ -67,6 +67,6 @@ image = Image.open("Feature Importance.png")
 bordered_img = ImageOps.expand(image, border=5, fill='black')  # 10px black border
 
 # Display the image
-st.image(bordered_img, caption='Feature Importance', use_column_width=True)
+st.image(bordered_img, caption='Feature Importance', use_container_width=True)
 
 
