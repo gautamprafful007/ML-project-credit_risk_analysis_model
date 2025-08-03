@@ -1,6 +1,6 @@
 import streamlit as st
 from prediction_helper import predict   # Ensure this is correctly linked to your prediction_helper.py
-# from PIL import Image , ImageOps
+from PIL import Image , ImageOps
 
 # Set the page configuration and title
 st.set_page_config(page_title="Reserve Bank : Credit Risk Analysis", page_icon="📊")
@@ -61,12 +61,12 @@ if st.button("Calculate Risk"):
 
 
 
-# # Load image from file
-# image = Image.open("Feature Importance.png")
+# Load image from file
+image = Image.open("Feature Importance.png")
 
-# bordered_img = ImageOps.expand(image, border=5, fill='black')  # 10px black border
+bordered_img = ImageOps.expand(image, border=5, fill='black')  # 10px black border
 
-# # Display the image
-# st.image(bordered_img, caption='Feature Importance ', use_container_width=True)
+# Display the image
+st.image(bordered_img, caption='Feature Importance', use_column_width=True)
 
 
