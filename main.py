@@ -4,7 +4,7 @@ from PIL import Image , ImageOps
 
 # Set the page configuration and title
 st.set_page_config(page_title="GoQuant Finance : Credit Risk Analysis", page_icon="📊")
-st.title("Reserve Bank : Credit Risk Analysis")
+st.title("GoQuant Finance : Credit Risk Analysis")
 
 # Create rows of three columns each
 row1=st.columns(3)
