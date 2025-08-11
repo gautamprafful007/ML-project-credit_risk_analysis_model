@@ -76,11 +76,6 @@ Use cross-validation and metrics like ROC‑AUC, precision, recall, F1‑score.
 
 Compare candidate models and choose the best based on performance and business criteria.
 
-<li>Interpretability with XAI</li>
-Use SHAP and/or LIME to generate global and local feature impact visualizations.
-
-Explain why certain profiles are flagged as high risk (e.g. high debt, low income).
-
 <h2>🧪 Usage & Example</h2>
 From the Notebook
 Open train_credit_risk.ipynb to run through EDA, model training, evaluation, and interpretability.
